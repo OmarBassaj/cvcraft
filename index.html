@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CVcraft - résumés and cover letters, crafted</title>
+  <meta name="description" content="CVcraft is a free résumé and cover-letter builder in English and Turkish. Use it in your browser or download the Windows app. Your documents stay on your device.">
+  <meta name="theme-color" content="#0e6b58">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="./" aria-label="CVcraft">
+      <img src="assets/icon.svg" alt="" width="36" height="36">
+      <span class="wordmark">CV<i>craft</i></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features" data-i18n="navFeatures">Features</a>
+      <a href="#get" data-i18n="navGet">App or web</a>
+      <a href="#faq" data-i18n="navFaq">Questions</a>
+    </nav>
+    <div class="nav-end">
+      <button class="lang" type="button" id="lang" aria-label="Language / Dil">TR</button>
+      <a class="btn small" href="app/index.html" data-i18n="openWeb">Open web app</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow" data-i18n="eyebrow">Free · English &amp; Türkçe · No account</p>
+      <h1 data-i18n-html="heroTitle">A résumé that looks <i>crafted</i>,<br>not filled in.</h1>
+      <p class="lead" data-i18n="heroLead">Write your CV and cover letter side by side with a live A4 preview, check it against what recruiters look for, and export a clean PDF or Word file.</p>
+      <div class="cta">
+        <a class="btn primary big" href="https://github.com/OmarBassaj/cvcraft/releases/latest/download/CVcraft-Setup-0.1.0.exe" download>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg>
+          <span data-i18n="download">Download for Windows</span>
+        </a>
+        <a class="btn big" href="app/index.html" data-i18n="useWeb">Use it in your browser</a>
+      </div>
+      <p class="fine"><span data-i18n="fineVersion">Version</span> 0.1.0 · 98 MB · Windows 10 / 11 (64-bit)</p>
+
+      <figure class="shot">
+        <div class="shot-bar"><i></i><i></i><i></i></div>
+        <img class="shot-en" src="assets/app-light.png" width="1440" height="900" alt="The CVcraft editor: document list, form fields and a live A4 preview of a résumé.">
+        <img class="shot-tr" src="assets/app-tr.png" width="1440" height="900" alt="CVcraft düzenleyicisi: belge listesi, form alanları ve özgeçmişin canlı A4 önizlemesi." loading="lazy">
+      </figure>
+    </section>
+
+    <section class="features" id="features">
+      <h2 data-i18n="featTitle">Everything a job application needs</h2>
+      <div class="grid">
+        <article>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM4 10h16M10 10v9"/></svg></span>
+          <h3 data-i18n="f1t">Seven templates</h3>
+          <p data-i18n="f1d">From bold sidebars to a plain single column built for applicant-tracking systems. Switch any time; your content stays put.</p>
+        </article>
+        <article>
+          <span class="ic gold"><svg viewBox="0 0 24 24"><path d="M12 3l1.800 5.200L19 10l-5.200 1.800L12 17l-1.800-5.200L5 10l5.200-1.800z"/></svg></span>
+          <h3 data-i18n="f2t">CV Check</h3>
+          <p data-i18n="f2d">A live score with specific fixes: missing contact details, summary length, bullets without numbers, weak phrasing, page count.</p>
+        </article>
+        <article>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg></span>
+          <h3 data-i18n="f3t">Job Match</h3>
+          <p data-i18n="f3d">Paste a job advert and see which of its key terms your résumé already uses and which are missing.</p>
+        </article>
+        <article>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v12a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM14 3v5h5M9 13h6M9 17h4"/></svg></span>
+          <h3 data-i18n="f4t">PDF and Word export</h3>
+          <p data-i18n="f4d">A print-ready A4 PDF that matches the preview, or an editable .docx when an employer asks for Word.</p>
+        </article>
+        <article>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></svg></span>
+          <h3 data-i18n="f5t">Matching cover letters</h3>
+          <p data-i18n="f5d">Link a letter to a résumé and it takes your name, contact details and style from it.</p>
+        </article>
+        <article>
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M6 11V8a6 6 0 0 1 12 0v3M5 11h14v9H5z"/></svg></span>
+          <h3 data-i18n="f6t">Private by design</h3>
+          <p data-i18n="f6d">No account and no upload. Your documents are stored on your own device, in the app and in the browser version alike.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="split-text">
+        <p class="eyebrow" data-i18n="trEyebrow">Two languages</p>
+        <h2 data-i18n="trTitle">English or Turkish, independently for the app and the document</h2>
+        <p data-i18n="trText">Work in a Turkish interface and write an English CV, or the other way round. Section headings, dates and capital letters follow the document's language.</p>
+        <p data-i18n="darkText">Light and dark themes are built in.</p>
+      </div>
+      <figure class="shot tilt">
+        <div class="shot-bar"><i></i><i></i><i></i></div>
+        <img src="assets/app-dark.png" width="1440" height="900" loading="lazy" alt="CVcraft in dark mode showing the CV Check score.">
+      </figure>
+    </section>
+
+    <section class="get" id="get">
+      <h2 data-i18n="getTitle">Two ways to use it</h2>
+      <div class="cards">
+        <article class="card">
+          <h3 data-i18n="appTitle">Windows app</h3>
+          <ul>
+            <li data-i18n="app1">Saves PDF and Word files straight to a folder you pick</li>
+            <li data-i18n="app2">Documents kept in a file on your PC, with an automatic backup copy</li>
+            <li data-i18n="app3">Works with no internet connection</li>
+          </ul>
+          <a class="btn primary" href="https://github.com/OmarBassaj/cvcraft/releases/latest/download/CVcraft-Setup-0.1.0.exe" download data-i18n="download">Download for Windows</a>
+          <p class="fine" data-i18n="appFine">Windows may warn that the publisher is unknown because the installer is not code-signed yet. Choose "More info", then "Run anyway".</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="webTitle">In your browser</h3>
+          <ul>
+            <li data-i18n="web1">Nothing to install; works on Windows, Mac and Linux</li>
+            <li data-i18n="web2">Documents kept in this browser's storage on this device</li>
+            <li data-i18n="web3">PDF export goes through the browser's print dialog</li>
+          </ul>
+          <a class="btn" href="app/index.html" data-i18n="openWeb">Open web app</a>
+          <p class="fine" data-i18n="webFine">Clearing your browser data removes your documents. Use "Back up all documents" in Settings to keep a copy. Best in Chrome or Edge.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <h2 data-i18n="faqTitle">Questions</h2>
+      <details>
+        <summary data-i18n="q1">Is it really free?</summary>
+        <p data-i18n="a1">Yes. There is no paid tier, no trial and no licence key.</p>
+      </details>
+      <details>
+        <summary data-i18n="q2">Where is my CV stored?</summary>
+        <p data-i18n="a2">On your device only. The Windows app writes one file in your user profile; the web version uses your browser's local storage. CVcraft has no server that receives your documents.</p>
+      </details>
+      <details>
+        <summary data-i18n="q3">Can I move documents between the web version and the app?</summary>
+        <p data-i18n="a3">Yes. In Settings choose "Back up all documents" in one, then "Import JSON" in the other.</p>
+      </details>
+      <details>
+        <summary data-i18n="q4">Will applicant-tracking systems read my CV?</summary>
+        <p data-i18n="a4">Use the Plain template for online application forms: it is a single column with no graphics, and its PDF text reads back in the right order. The decorative templates are meant for sending to a person.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <a class="logo" href="./"><img src="assets/icon.svg" alt="" width="28" height="28"><span class="wordmark">CV<i>craft</i></span></a>
+    <span data-i18n="footNote">Résumés, crafted. Your data stays with you.</span>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
